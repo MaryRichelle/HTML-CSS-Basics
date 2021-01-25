@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+body{
+    background-image: -webkit-linear-gradient( rgba(11, 50, 180, 0.8), #1e213f, #0d3683);
+    color: rgb(241, 245, 245);
+    text-decoration: none;
+    font-size: 25px;
+   margin: auto;
+    width: 80%;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    
+    background-size: cover;
+}
+div{
+    height: 400px;
+    padding: 10px;
+
+
+}
+header {
+    
+    width: 100%;
+    height: 500px;
+    background-image: url(crypto/head.jpg);
+    background-size: cover;
+}
+h1{
+    color: cornsilk;
+    text-align: center;
+    font-size: 50px;
+    top: 20%;
+
+ 
+}
+p{
+    width: 60%;
+}
+#bitcoin img{
+   
+    height: 300px;
+    /* bottom: 20px; */
+    width: 35%;
+ float: right;
+ margin-top: -20%;
+
+}
+h2{
+    text-align: center;
+    
+}
+#ripple img {
+    height: 230px;
+    width: 35%;
+ float: right;
+ margin-top: -20%;
+}
+#ethereum img{
+    height: 280px;
+    width: 35%;
+ float: right;
+ margin-top: -20%;
+}
+#litecoin img{
+    width: 35%;
+    float: right;
+    margin-top: -20%;
+    height:280px ;
+}
+a{
+    text-decoration: none;
+    color: rgba(240, 244, 247, 0.986);
+    font-weight: bold;
+    font-size: 20px;
+    
+}

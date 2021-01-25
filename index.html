@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <style>
+        *{
+            font-weight: bold;
+        }
+        body{
+            background-color: rgba(238, 77, 13, 0.945);
+            color:rgb(255, 250, 250);
+             }
+        form{
+            margin: 0 auto;
+            width: 45%;
+            border-top: 3px solid white;
+            border-bottom: 3px solid white;
+            border-left: transparent;
+            border-right: transparent;
+            border-style: double;
+            border-radius: 15px;
+            height: 420px;
+            font-size: 15px;
+             margin-top: 8%;
+             font-weight: bold;
+
+         }
+         h2{
+             margin-top: 30px;
+             font-family: Verdana, Geneva, Tahoma, sans-serif ;
+         }
+         label {
+                display: inline-block;
+                text-align: right;
+                width: 40%;
+                margin-top: 20px;
+                font-family:"Brush Script MT", Cursive;
+                margin : 15px;
+                border:  hidden ;
+                }
+         input {
+            padding: 5px;
+            border:  hidden ;
+           
+         }
+         button {
+                margin-top: 20px;
+                border-radius: 3px;
+                padding: 5px;
+                width: 25%;
+                color: rgb(248, 89, 16);
+                font-family: Verdana, Geneva, Tahoma, sans-serif ;
+                border:  hidden ;
+                }
+            .btn{
+                text-align: right;
+                margin-right: 45px;
+               
+            }
+
+    </style>
+</head>
+<body>
+    <div>
+        <form class="form-horizontal">
+            <div>
+                <h2>Create Your Account</h2>
+             </div>
+             <div>
+                <label for="name">Enter Name : </label>
+                <input id="name" type="text" name=" Enter Name :" placeholder="Enter user here">
+            </div>
+            <div>
+                <label for="email">Enter Email ID : </label>
+                <input id="email" type="email" name="Email"  placeholder="Enter Email ID here">
+            </div>
+            <div>
+                <label for="username">Enter User Name : </label>
+                <input id="username" type="text" name="User_Name :"  placeholder="Enter username here">
+            </div>
+            <div>
+                <label for="pwd">Enter Password : </label>
+                <input id="pwd
+                " type="password" name="Password :"  placeholder="Enter password here">
+            </div>
+            <div>
+                <label for="">Enter Confirm Password : </label>
+                <input id="pwd" type="password" name="Confirm_Password"  placeholder="Enter password here">
+            </div>
+            <div class="btn">
+                <button>Clear Form</button>
+                <button type="reset">Create Account</button>
+            </div>
+         </form>
+    </div>
+</body>
+</html>
